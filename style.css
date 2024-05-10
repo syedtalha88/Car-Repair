@@ -266,6 +266,7 @@ body{
 }
 
 
+
 /* section welcome */
 
 
@@ -621,4 +622,443 @@ transition: .3s linear;
     opacity: 0;
     transform: rotateZ(360deg);
 
+}
+.burger{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    display:none;
+}
+.navshow{
+    top: 0;
+}
+@media only screen and (max-width: 1450px) 
+{
+    .welcome-container{
+        margin: 0 100px;
+        margin-top: 100px;
+    }
+    .services-container{
+        padding: 20px 120px;
+    }
+    .features-container{
+        margin: 0 150px;
+    }
+    .keypoints-container{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .key-content{
+        width: 250px;
+        height: 150px;
+    }
+    .key-content img{
+        width: 250px;
+        height: 150px;
+    }
+    .testimonials{
+        padding: 20px 150px;
+    }
+    .brand-container{
+        margin: 0 150px;
+    }
+    .footer-container{
+        padding: 20px 150px;
+
+    }
+}
+@media only screen and (max-width: 1150px)
+{
+    .background-image{
+        width: 100%;
+    }
+    .background-image img{
+
+        height: 300px;
+    }
+    .welcome-container{
+        margin: 0 70px;
+        margin-top: 70px;
+    }
+    .services-container{
+        padding: 20px 70px;
+    }
+    .features-container{
+        margin: 0 70px;
+    }
+    .features-card{
+        width: 170px;
+        height: 170px;
+    }
+    .features-card-front{
+        font-size: 16px;
+    }
+    .features-card-front img{
+        width: 40px;
+        height: 40px;
+    }
+    .keypoints-container{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .key-content{
+        width: 200px;
+        height: 150px;
+    }
+    .key-content img{
+        width: 200px;
+        height: 150px;
+    }
+    .key-description{
+        margin: 0 10px;
+        margin-top: 20px;
+    }
+    .key-description h3{
+        font-size: 14px;
+    }
+    .key-description p{
+        font-size: 12px;
+    }
+    .testimonials{
+        padding: 20px 70px;
+    }
+    .test-card{
+        width: 240px;
+        height: 320px;
+    }
+    .test-container img{
+        width: 100px;
+        height: 100px;
+    }
+    .test-content span{
+        font-size: 11px;
+    }
+    .brand-container{
+        margin: 0 40px;
+    }
+    .footer-container{
+        padding: 20px 40px;
+
+    }
+}
+
+@media only screen and (max-width: 880px)
+{
+    
+
+    .sticky{
+        position: relative;
+
+    }
+    .sun{
+        right: 40px;
+    }
+    .moon{
+        right: 40px;
+    }
+    .logo{
+        line-height: 50px;
+    }
+    .burger{
+        display: block;
+    }
+    .nav{
+        display: block;
+        width: 100%;
+        overflow: visible;
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: red;
+    }
+    .nav-list{
+        padding-bottom: 40px;
+        position: absolute;
+        width: 100%;
+        top:-100vh;
+        overflow: hidden;
+        transition: .5s top;
+    }
+    .navshow{
+        top: 0;
+    }
+    .list-item {
+        width: 100px;
+        text-align: center;
+        border-bottom: 2px solid wheat;
+        border-left: none;
+    }
+    .item-last{
+        border-right: none;
+    }
+    .background-image{
+        width: 100%;
+    }
+    .background-image img{
+
+        height: 300px;
+    }
+    .home-content-wrapper{
+        margin: 0 auto;
+    }
+    .welcome-container{
+        margin: 0 10px;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .company{
+        height: 550px;
+    }
+    .services-container{
+        margin-top: 200px;
+        padding: 20px 10px;
+        overflow: hidden;
+    }
+    .services-content2{
+        display: none;
+    }
+    .services-content-wrapper{
+        flex-wrap: wrap;
+    }
+    .features{
+        flex-wrap: wrap;
+        margin: 0 20%;
+    }
+    .features-container{
+        margin: 0 10px;
+        height: 400px;
+    }
+    .features-card{
+        margin-top: 20px;
+        width: 170px;
+        height: 170px;
+    }
+    .features-card-front{
+        font-size: 16px;
+    }
+    .features-card-front img{
+        width: 40px;
+        height: 40px;
+    }
+    .keypoints-container{
+        /* justify-content: spb; */
+        /* margin:0 200px; */
+        padding: 0 16%;
+        margin-top: 10px;
+        margin-bottom: 70px;
+        flex-wrap: wrap;
+    }
+    .key-content{
+        margin-top: 20px;
+        width: 200px;
+        height: 150px;
+    }
+    .key-content img{
+        width: 200px;
+        height: 150px;
+    }
+    .key-description{
+        margin: 0 10px;
+        margin-top: 20px;
+    }
+    .key-description h3{
+        font-size: 14px;
+    }
+    .key-description p{
+        font-size: 12px;
+    }
+    .testimonials{
+        padding: 20px 10px;
+        height: 1200px;
+    }
+    .test-card{
+        width: 240px;
+        height: 320px;
+        margin-top: 20px;
+    }
+    .test-container{
+        flex-direction: column;
+        padding: 0 auto;
+        /* justify-content: center; */
+        align-items: center;
+        
+        
+    }
+    .test-container img{
+        width: 100px;
+        height: 100px;
+    }
+    .test-content span{
+        font-size: 11px;
+    }
+    .brand-container{
+        margin: 0 10px;
+        height: 150px;
+    }
+    .brand-heading{
+        font-size: 14px;
+    }
+    .brand-logo img{
+        margin: 0 10px ;
+    }
+    .brand-container img{
+        width: 70px;
+        height: 70px;
+    }
+    .footer-container{
+        padding: 20px 10px;
+        flex-wrap: wrap;
+
+    }
+    .footer-container p{
+        font-size: 12px;
+    }
+    .footer-contact{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .topnav-container{
+        font-size: 11px;
+    }
+    .help{
+        display: none;
+    }
+    .background-image img{
+        height: 200px;
+    }
+    .home-content{
+        height: 200px;
+    }
+
+    .home-content-wrapper p{
+        font-size: 30px;
+    }
+    
+    .home-content-wrapper h1{
+        font-size: 30px;
+    }
+    .features{
+        flex-wrap: wrap;
+        margin: 0 10px;
+    }
+    .welcome-content p{
+        font-size: 12px;
+    }
+    .services-heading{
+        font-size: 17px;
+    }
+    .services-content1{
+        display: none;
+   }
+   .key-content{
+    /* margin-top: 20px; */
+    width: 260px;
+    height: 150px;
+   }
+   .features-card-back{
+    overflow: hidden;
+}
+   
+   .key-content img{
+    /* margin-top: 20px; */
+    width: 260px;
+    height: 150px;
+   }
+   .key-description h3{
+    font-size: 16px;
+   }
+   .key-description p{
+    font-size: 14px;
+   }
+   .brand-logo img{
+    width: 50px;
+    height: 50px;
+   }
+   .footer-container{
+    height: 350px;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+    .topnav-container{
+        font-size: 11px;
+    }
+    .help{
+        display: none;
+    }
+    .background-image img{
+        height: 140px;
+    }
+    .home-content{
+        height: 140px;
+    }
+
+    .home-content-wrapper p{
+        font-size: 22px;
+    }
+    .home-content-wrapper button{
+        padding: 6px 15px;
+    }
+    
+    .home-content-wrapper h1{
+        font-size: 22px;
+    }
+    .features{
+        flex-wrap: wrap;
+        margin: 0 10px;
+    }
+    .features-card{
+        width: 140px;
+        height: 140px;
+        overflow: hidden;
+    }
+    
+    .welcome-image img{
+        width: 100%;
+        height: 170px;
+    }
+    .welcome-content p{
+        font-size: 12px;
+    }
+    .services-heading{
+        font-size: 17px;
+    }
+    .services-content1{
+        display: none;
+   }
+   .key-content{
+    /* margin-top: 20px; */
+    width: 260px;
+    height: 150px;
+   }
+   /* .key-description{
+    margin: 0 auto;
+    margin-top: 20px;
+   } */
+   .key-content img{
+    /* margin-top: 20px; */
+    width: 260px;
+    height: 150px;
+   }
+   .key-description h3{
+    font-size: 16px;
+   }
+   .key-description p{
+    font-size: 14px;
+   }
+   .brand-logo img{
+    width: 38px;
+    height: 38px;
+   }
+   .footer-news{
+    display: none;
+   }
+   .footer-container{
+    height: 350px;
+   }
 }
